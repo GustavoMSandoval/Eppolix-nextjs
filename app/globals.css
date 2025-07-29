@@ -3,8 +3,12 @@
 :root {
     --eppolix-white: #FFFFFF;
     --eppolix-green: #1BBC9B;
+    --eppolix-gray: #96979D;
 }
 
+a,button {
+    cursor: pointer;
+}
 
 #sidebar {
    transition: transform 0.3s ease-in-out;
@@ -12,15 +16,62 @@
 
 .nav-link {
 
+    display: flex;
+    gap: 4px;
     transition: .5s;
     padding: 5px 3px;
     border-radius: 10px;
+
+    @media (max-width: 1200px) {
+        align-items: center;
+        font-size: 12px;
+    }
 
     &:hover {
         color: var(--eppolix-white);
         background-color: var(--eppolix-green);
         transition: .3s ease-in-out;
     }
+}
+
+#about {
+    color: var(--eppolix-gray);
+}
+
+#duty {
+    color: var(--eppolix-white);
+    background-image: url('/background/bgFake1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#services {
+    color: var(--eppolix-gray);
+}
+
+.service-link {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    transition: .5s;
+    padding: 5px 3px;
+    border-radius: 10px;
+
+    &:hover {
+        color: var(--eppolix-white);
+        background-color: var(--eppolix-gray);
+        transition: .3s ease-in-out;
+    }
+}
+
+#clients {
+    color: var(--eppolix-gray);
+}
+
+.section {
+    padding: 50px clamp(20px, 5vw, 100px);
 }
 
 .footer-link {

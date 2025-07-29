@@ -12,6 +12,7 @@ export default function Footer() {
               <li className="phone">+55 11 4154-4526 | +55 11 4154-5804 | +55 11 4154-5497 | +55 11 4154-2165</li>
               <li className="phone">FAX: +55 11 4154–4561</li>
               <li className="email">comercial@eppolix.com.br</li>
+              <li className="link"><a href="https://eppolix.becompliance.com/canal-etica/canal-denuncias">eppolix.becompliance.com/canal-etica/canal-denuncias</a></li>
             </ul>
           </div>
         </div>
