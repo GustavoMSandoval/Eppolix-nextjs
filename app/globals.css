@@ -3,6 +3,7 @@
 :root {
     --eppolix-white: #FFFFFF;
     --eppolix-green: #1BBC9B;
+    --eppolix-light-green: #bad337;
     --eppolix-gray: #96979D;
 }
 
@@ -34,17 +35,38 @@ a,button {
     }
 }
 
-#about {
-    color: var(--eppolix-gray);
+.btn {
+    color: var(--eppolix-white);
+    background-color: var(--eppolix-light-green);
+    transition: .5s;
+    margin: 1rem 0px;
+    padding: 5px 1.5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+
+    &:hover {
+        color: var(--eppolix-gray);
+        background-color: var(--eppolix-white);
+        transition: .3s ease-in-out;
+    }
 }
 
-#duty {
-    color: var(--eppolix-white);
-    background-image: url('/background/bgFake1.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+#about {
+  color: var(--eppolix-white);
+  height: 780px;
+  background-image: linear-gradient(
+    to right,
+    var(--eppolix-green), 
+    rgba(0, 128, 0, 0)
+    ),
+    url('/background/caminhao.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about-text {
+    font-size: 0.9rem;
 }
 
 #services {
