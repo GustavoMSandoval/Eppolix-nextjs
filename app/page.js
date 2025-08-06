@@ -1,4 +1,5 @@
 import { FlaskConical, MapPinHouse, Package, Trash2, Truck } from "lucide-react"
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -91,10 +92,51 @@ export default function Home() {
     </div>
   </section>
 
-    <section id="clients" className="section container mx-auto">
-      <h2 className="text-4xl uppercase">nossos CLIENTES</h2>
-      <div>
-
+  <section id="clients" className="section container mx-auto px-6 py-16">
+      <h2 className="text-4xl font-bold uppercase text-center">Nossos Clientes</h2>
+      <div className="my-12 flex flex-col gap-8">
+        <div className="flex justify-center lg:gap-4">
+          <div className="client-card">
+            <Image src="/clients/prefeitura_de_itu.png" alt="Prefeitura de Itu" width={160} height={80} className="object-contain" />
+          </div>
+          <div className="client-card">
+            <Image src="/clients/prefeitura_de_cabreuva.jpg" alt="Prefeitura de Cabreúva" width={160} height={80} className="object-contain" />
+          </div>
+          <div className="client-card">
+            <Image src="/clients/diagnostico_da_america.png" alt="Diagnóstico da América" width={160} height={80} className="object-contain" />
+          </div>
+          <div className="client-card">
+            <Image src="/clients/prefeitura_de_barueri.png" alt="Prefeitura de Barueri" width={160} height={80} className="object-contain" />
+          </div>
+        </div>
+        <div className="flex justify-center lg:gap-12">
+          <div className="client-card">
+            <Image src="/clients/unimed_sorocaba.png" alt="Unimed Sorocaba" width={160} height={80} className="object-contain" />
+          </div>
+          <div className="client-card">
+            <Image src="/clients/prefeitura_de_aracariguama.png" alt="Prefeitura de Araçariguama" width={160} height={80} className="object-contain" />
+          </div>
+          <div className="client-card">
+            <Image src="/clients/prefeitura_de_carapicuiba.png" alt="Prefeitura de Carapicuíba" width={160} height={80} className="object-contain" />
+          </div>
+          <div className="client-card">
+            <Image src="/clients/prefeitura_de_franco_da_rocha.png" alt="Prefeitura de Franco da Rocha" width={160} height={80} className="object-contain" />
+          </div>
+        </div>
+        <div className="flex justify-center lg:gap-4">
+          <div className="client-card">
+            <Image src="/clients/prefeitura_de_porto_feliz.png" alt="Prefeitura de Porto Feliz" width={160} height={80} className="object-contain" />
+          </div>
+          <div className="client-card">
+            <Image src="/clients/prefeitura_de_caieiras.png" alt="Prefeitura de Caieiras" width={160} height={80} className="object-contain" />
+          </div>
+          <div className="client-card">
+            <Image src="/clients/prefeitura_santana_de_parnaiba.jpg" alt="Prefeitura de Santana de Parnaíba" width={160} height={80} className="object-contain" />
+          </div>
+          <div className="client-card">
+            <Image src="/clients/client-5.png" alt="Cliente 5" width={160} height={80} className="object-contain" />
+          </div>
+        </div>
       </div>
     </section>
     </>
