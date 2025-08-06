@@ -88,6 +88,10 @@ a,button {
     }
 }
 
+#technology {
+    color: var(--eppolix-gray);
+}
+
 #clients {
     color: var(--eppolix-gray);
 }

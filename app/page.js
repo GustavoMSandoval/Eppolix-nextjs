@@ -91,7 +91,50 @@ export default function Home() {
       </div>
     </div>
   </section>
+  <section id="technology" className="section container mx-auto px-6 py-16 text-center">
+    <div className="mb-12">
+      <h2 className="text-4xl font-bold uppercase">Nossas Tecnologias</h2>
+      <p className="mt-6 text-lg leading-relaxed text-gray-700 max-w-2xl mx-auto">
+        Utilizamos tecnologia moderna no tratamento de resíduos de serviços de saúde,
+        garantindo segurança, eficiência e respeito ao meio ambiente.
+      </p>
+    </div>
 
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+      <div className="flex flex-col items-center">
+        <div className="w-40 h-40 rounded-full overflow-hidden shadow-md">
+          <Image src="/technologies/tecnologia.jpg" alt="Tecnologia" width={160} height={160} className="object-cover w-full h-full" />
+        </div>
+        <h3 className="mt-6 text-xl font-semibold">Tecnologia de Tratamento</h3>
+        <p className="mt-2 text-gray-600 text-sm max-w-sm">
+          O tratamento por autoclave com trituração prévia reduz em até 80% o volume
+          dos resíduos, tornando-os irreconhecíveis e esterilizados.
+        </p>
+      </div>
+
+      <div className="flex flex-col items-center">
+        <div className="w-40 h-40 rounded-full overflow-hidden shadow-md">
+          <Image src="/technologies/vantagens.jpg" alt="Vantagens" width={160} height={160} className="object-cover w-full h-full" />
+        </div>
+        <h3 className="mt-6 text-xl font-semibold">Vantagens Técnicas</h3>
+        <p className="mt-2 text-gray-600 text-sm max-w-sm">
+          Sistema automatizado que garante esterilização completa sem gerar poluentes,
+          minimizando riscos de contaminação e acidentes de trabalho.
+        </p>
+      </div>
+
+      <div className="flex flex-col items-center">
+        <div className="w-40 h-40 rounded-full overflow-hidden shadow-md">
+          <Image src="/technologies/compromisso.jpg" alt="Compromisso" width={160} height={160} className="object-cover w-full h-full" />
+        </div>
+        <h3 className="mt-6 text-xl font-semibold">Compromisso Ambiental</h3>
+        <p className="mt-2 text-gray-600 text-sm max-w-sm">
+          Monitoramento contínuo, reciclagem de água e processos sustentáveis
+          reforçam nosso cuidado com a saúde e o meio ambiente.
+        </p>
+      </div>
+    </div>
+  </section>
   <section id="clients" className="section container mx-auto px-6 py-16">
       <h2 className="text-4xl font-bold uppercase text-center">Nossos Clientes</h2>
       <div className="my-12 flex flex-col gap-8">
