@@ -12,7 +12,7 @@ export default function Header() {
   }
 
   return (
-    <header className="relative z-50">
+    <header className="fixed w-full z-50">
       <nav className="flex items-center justify-around px-6 py-4 md:px-12 bg-white shadow-sm">
         <div>
           <Image 
