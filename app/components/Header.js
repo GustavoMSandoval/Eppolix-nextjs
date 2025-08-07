@@ -1,6 +1,6 @@
 'use client'
 
-import { Building, Cpu, FlaskConical, Home, Leaf, Phone, Scale } from 'lucide-react'
+import {  Cpu, FlaskConical, Home, Leaf, Phone } from 'lucide-react'
 import Image from 'next/image'
 import React, { useState } from 'react'
 
@@ -25,13 +25,11 @@ export default function Header() {
         </div>
 
         <ul className="hidden lg:flex items-center gap-6 text-gray-800 font-medium">
-          <li><a href="#" className='nav-link'><Home/> Home</a></li>
-          <li><a href="#" className='nav-link'><Building/> Empresa</a></li>
-          <li><a href="#" className='nav-link'><Leaf/>Serviços</a></li>
-          <li><a href="#" className='nav-link'><Cpu/>Tecnologia</a></li>
-          <li><a href="#" className='nav-link'><FlaskConical/>Tratamento</a></li>
-          <li><a href="#" className='nav-link'><Scale/>Legislação</a></li>
-          <li><a href="#" className='nav-link'><Phone/>Contato</a></li>
+          <li><a href="#" className='nav-link'><Home/>Sobre</a></li>
+          <li><a href="#services" className='nav-link'><Leaf/>Serviços</a></li>
+          <li><a href="#technology" className='nav-link'><Cpu/>Tecnologia</a></li>
+          <li><a href="#treatment" className='nav-link'><FlaskConical/>Tratamento</a></li>
+          <li><a href="#contacts" className='nav-link'><Phone/>Contato</a></li>
         </ul>
 
         <div className="lg:hidden">
@@ -50,13 +48,11 @@ export default function Header() {
       </nav>
       <div className={`fixed top-0 right-0 h-screen w-64 bg-white shadow-lg transform transition-transform duration-300 ease-in-out z-50 ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
         <ul className="flex flex-col mt-16 gap-6 px-6 text-gray-800 text-lg">
-          <li><a href="#" onClick={toggleMenu} className='flex gap-1'><Home/> Home</a></li>
-          <li><a href="#" onClick={toggleMenu} className='flex gap-1'><Building/> Empresa</a></li>
-          <li><a href="#" onClick={toggleMenu} className='flex gap-1'><Leaf/>Serviços</a></li>
-          <li><a href="#" onClick={toggleMenu} className='flex gap-1'><Cpu/>Tecnologia</a></li>
-          <li><a href="#" onClick={toggleMenu} className='flex gap-1'><FlaskConical/>Tratamento</a></li>
-          <li><a href="#" onClick={toggleMenu} className='flex gap-1'><Scale/>Legislação</a></li>
-          <li><a href="#" onClick={toggleMenu} className='flex gap-1'><Phone/>Contato</a></li>
+          <li><a href="#" onClick={toggleMenu} className='flex gap-1'><Home/>Sobre</a></li>
+          <li><a href="#services" onClick={toggleMenu} className='flex gap-1'><Leaf/>Serviços</a></li>
+          <li><a href="#technology" onClick={toggleMenu} className='flex gap-1'><Cpu/>Tecnologia</a></li>
+          <li><a href="#treatment" onClick={toggleMenu} className='flex gap-1'><FlaskConical/>Tratamento</a></li>
+          <li><a href="#contacts" onClick={toggleMenu} className='flex gap-1'><Phone/>Contato</a></li>
         </ul>
       </div>
 

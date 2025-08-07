@@ -9,8 +9,16 @@
     --eppolix-gray: #96979D;
 }
 
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
 a, button {
     cursor: pointer;
+}
+
+p {
+    font-weight: 600;
 }
 
 .title-primary {

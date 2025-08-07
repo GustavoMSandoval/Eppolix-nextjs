@@ -2,7 +2,7 @@ import { Gavel, Phone, Users } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-100 text-gray-800 text-sm">
+    <footer id='contacts' className="bg-gray-100 text-gray-800 text-sm">
       <section className="py-8 border-b border-gray-300">
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
           
@@ -65,13 +65,11 @@ export default function Footer() {
       <section className="py-6 border-b border-gray-300">
         <div className="container mx-auto px-4">
           <ul className="flex flex-wrap justify-center gap-6 text-base font-medium">
-            <li><a href="#" className="footer-link">Home</a></li>
-            <li><a href="#" className="footer-link">Empresa</a></li>
-            <li><a href="#" className="footer-link">Serviços</a></li>
-            <li><a href="#" className="footer-link">Tecnologia</a></li>
-            <li><a href="#" className="footer-link">Tratamento</a></li>
-            <li><a href="#" className="footer-link">Legislação</a></li>
-            <li><a href="#" className="footer-link">Contato</a></li>
+            <li><a href="#" className="footer-link">Sobre</a></li>
+            <li><a href="#services" className="footer-link">Serviços</a></li>
+            <li><a href="#technology" className="footer-link">Tecnologia</a></li>
+            <li><a href="#treatment" className="footer-link">Tratamento</a></li>
+            <li><a href="#contacts" className="footer-link">Contato</a></li>
           </ul>
         </div>
       </section>
