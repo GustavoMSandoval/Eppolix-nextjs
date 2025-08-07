@@ -4,11 +4,51 @@
     --eppolix-white: #FFFFFF;
     --eppolix-green: #1BBC9B;
     --eppolix-light-green: #bad337;
+    --eppolix-yellow: #F1C412;
+    --eppolix-light-blue: #29abe2;
     --eppolix-gray: #96979D;
 }
 
-a,button {
+a, button {
     cursor: pointer;
+}
+
+.title-primary {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title-secondary {
+  color: var(--eppolix-white);
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.section {
+    padding: 50px clamp(20px, 5vw, 100px);
+    color: var(--eppolix-gray);
+}
+
+.btn {
+    color: var(--eppolix-white);
+    background-color: var(--eppolix-light-green);
+    transition: .5s;
+    margin: 1rem 0px;
+    padding: 5px 1.5rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+
+    &:hover {
+        color: var(--eppolix-gray);
+        background-color: var(--eppolix-white);
+        transition: .3s ease-in-out;
+    }
 }
 
 #sidebar {
@@ -35,22 +75,6 @@ a,button {
     }
 }
 
-.btn {
-    color: var(--eppolix-white);
-    background-color: var(--eppolix-light-green);
-    transition: .5s;
-    margin: 1rem 0px;
-    padding: 5px 1.5rem;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-
-    &:hover {
-        color: var(--eppolix-gray);
-        background-color: var(--eppolix-white);
-        transition: .3s ease-in-out;
-    }
-}
-
 #about {
   color: var(--eppolix-white);
   height: 780px;
@@ -69,10 +93,6 @@ a,button {
     font-size: 0.9rem;
 }
 
-#services {
-    color: var(--eppolix-gray);
-}
-
 .service-link {
     display: flex;
     gap: 4px;
@@ -88,12 +108,18 @@ a,button {
     }
 }
 
-#technology {
-    color: var(--eppolix-gray);
-}
-
-#clients {
-    color: var(--eppolix-gray);
+#treatment {
+    color: var(--eppolix-white);
+    height: 500px;
+    background-image: linear-gradient(
+        to right,
+        var(--eppolix-yellow), 
+        rgba(0, 128, 0, 0)
+        ),
+        url('/background/slid3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .client-card {
@@ -110,11 +136,6 @@ a,button {
         box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
     }
 }
-
-.section {
-    padding: 50px clamp(20px, 5vw, 100px);
-}
-
 
 .footer-subtitle {
     display: flex;

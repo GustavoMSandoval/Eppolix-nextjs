@@ -135,6 +135,14 @@ export default function Home() {
       </div>
     </div>
   </section>
+  <section id="treatment" className="section mx-auto px-6 py-16 flex flex-col justify-center">
+    <h2 className="title-secondary">
+      Tratamento
+    </h2>
+    <p className="mt-6 max-w-3xl mx-auto text-center text-base leading-relaxed">
+      Na EPPOlix, adotamos uma postura ativa em prol do meio ambiente, investindo continuamente em soluções tecnológicas sustentáveis para o tratamento de resíduos. Assumimos a responsabilidade de operar com transparência e eficiência, contribuindo para um futuro mais seguro e equilibrado. A sustentabilidade é parte essencial da nossa missão.
+    </p>
+  </section>
   <section id="clients" className="section container mx-auto px-6 py-16">
       <h2 className="text-4xl font-bold uppercase text-center">Nossos Clientes</h2>
       <div className="my-12 flex flex-col gap-8">
