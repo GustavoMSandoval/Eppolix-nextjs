@@ -24,7 +24,7 @@ export default function Home() {
       </div>
     </section>
     <section id="services" className="section container mx-auto px-6 py-16">
-    <h2 className="text-4xl font-bold text-center">SERVIÇOS</h2>
+    <h2 className="title-primary">SERVIÇOS</h2>
 
     <div className="grid gap-8 mt-12 sm:grid-cols-2 lg:grid-cols-3">
       <div className="service-card p-6 rounded-2xl shadow-lg bg-white hover:shadow-xl transition">
