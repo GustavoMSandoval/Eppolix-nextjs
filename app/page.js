@@ -144,7 +144,7 @@ export default function Home() {
     </p>
   </section>
   <section id="clients" className="section container mx-auto px-6 py-16">
-      <h2 className="text-4xl font-bold uppercase text-center">Nossos Clientes</h2>
+      <h2 className="title-primary">Nossos Clientes</h2>
       <div className="my-12 flex flex-col gap-8">
         <div className="flex justify-center lg:gap-4">
           <div className="client-card">
