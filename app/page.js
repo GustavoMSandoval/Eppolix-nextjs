@@ -93,7 +93,7 @@ export default function Home() {
   </section>
   <section id="technology" className="section container mx-auto px-6 py-16 text-center">
     <div className="mb-12">
-      <h2 className="text-4xl font-bold uppercase">Nossas Tecnologias</h2>
+      <h2 className="title-primary">Nossas Tecnologias</h2>
       <p className="mt-6 text-lg leading-relaxed text-gray-700 max-w-2xl mx-auto">
         Utilizamos tecnologia moderna no tratamento de resíduos de serviços de saúde,
         garantindo segurança, eficiência e respeito ao meio ambiente.
