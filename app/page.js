@@ -9,16 +9,16 @@ export default function Home() {
       className="section grid grid-cols-1 md:grid-cols-6 items-center h-[700px] px-6 md:px-12"
     >
       <div className="col-start-1 col-span-1 md:col-start-2 md:col-span-3 flex flex-col items-start max-w-2xl mx-auto md:mx-0">
-        <h1 className="text-4xl md:text-5xl font-semibold">
+        <h1 className="text-4xl lg:text-5xl font-semibold">
           SOMOS A EPPOLIX
         </h1>
-        <p className="about-text mt-4 text-justify text-base md:text-lg max-w-lg">
+        <p className="about-text mt-4 text-justify text-base lg:text-lg max-w-lg">
           Especializada em Coleta, Transporte, Tratamento e Destinação Final de Resíduos de Serviços
           de Saúde – R.S.S. Nossa Unidade de Tratamento de Resíduos localizada em Santana de Parnaíba, detém a mais
           eficaz tecnologia existente no mercado,
           Tratamento por Autoclavagem com Pré Trituração.
         </p>
-        <a className="btn">
+        <a href="#contacts" className="btn">
           contato
         </a>
       </div>
