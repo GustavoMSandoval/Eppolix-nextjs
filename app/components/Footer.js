@@ -117,7 +117,7 @@ export default function Footer() {
       <section className="py-4">
         <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between text-center md:text-left text-xs text-gray-600">
           <div>Copyright © 2025. Todos os direitos reservados.</div>
-          <div>Desenvolvido por Gustavo</div>
+          <div>Desenvolvido por <a href="https://francotechsolutions.com.br/">Franco Tech Solutions</a></div>
         </div>
       </section>
     </footer>
